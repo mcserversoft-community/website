@@ -1,14 +1,20 @@
 [
-    {
-        "name": "mcss-api-java",
-        "language": "java",
-        "version": "1.2.1.1",
-        "url": "https://github.com/mcserversoft-community/mcss-api-java"
-    },
-    {
-        "name": "example",
-        "language": "js",
-        "version": "1.0.0",
-        "url": "https://github.com/mcserversoft-community/"
-    }
+	{
+		"name": "mcss-api-java",
+		"language": "java",
+		"version": "1.2.1.1",
+		"url": "https://github.com/mcserversoft-community/mcss-api-java"
+	},
+	{
+		"name": "mcss-api-js",
+		"language": "TypeScript",
+		"version": "0.5.0",
+		"url": "https://github.com/mcserversoft-community/mcss-api-js"
+	},
+	{
+		"name": "mcss-api-py",
+		"language": "Python",
+		"version": "0.0.2",
+		"url": "https://github.com/mcserversoft-community/mcss-api-py"
+	}
 ]
