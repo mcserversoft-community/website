@@ -3,6 +3,7 @@
 This repo holds the files for the community.mcserversoft.com website.
 
 ## Projects
+
 Projects are dynamically loaded through the `/src/lib/data/projects.json` file.
 
 ## Contribute
@@ -10,6 +11,7 @@ Projects are dynamically loaded through the `/src/lib/data/projects.json` file.
 This website is made with SvelteKit, to run this website locally you need to install the dependencies with `npm install` first.
 
 After that you can start the development server:
+
 ```bash
 npm run dev
 

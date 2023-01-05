@@ -1,5 +1,5 @@
 <script lang="ts">
-	import IconExternalUrl from '$lib/svg/iconExternalUrl.svelte';
+	// import IconExternalUrl from '$lib/svg/iconExternalUrl.svelte';
 </script>
 
 <section>
