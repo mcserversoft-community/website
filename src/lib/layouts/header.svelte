@@ -1,14 +1,12 @@
 <script lang="ts">
 	import IconExternalUrl from '$lib/svg/iconExternalUrl.svelte';
 	import LogoGithub from '$lib/svg/logoGithub.svelte';
-	// import LogoDiscord from '../svg/logoDiscord.svelte';
-	import LogoMcss from '../svg/logoMcss.svelte';
-</script>
+	</script>
 
 <header class="text-gray-400 bg-gray-900">
 	<div class="container mx-auto flex flex-wrap p-5 flex-col lg:flex-row items-center">
 		<a href="/" class="flex title-font font-medium items-center text-white mb-4 lg:mb-0">
-			<LogoMcss class="w-10 h-10 pt-1" />
+			<img src="/logo-256.png" alt="logo" height={40} width={40} >
 			<span class="ml-2 text-xl">MC Server Soft Community</span>
 		</a>
 		<nav class="lg:mr-auto lg:ml-4 lg:py-1 lg:pl-4 lg:border-l lg:border-gray-700 flex flex-wrap items-center text-base justify-center">
