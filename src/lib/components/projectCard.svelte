@@ -1,7 +1,7 @@
 <script lang="ts">
 	export let name: string;
 	export let description: string;
-	export let version: string;
+	// export let version: string;
 	export let url: string;
 </script>
 
@@ -12,8 +12,8 @@
 		</div>
 		<div class="flex-grow">
 			<p class="leading-relaxed text-base">{description}</p>
-			<p class="leading-relaxed text-base">v{version}</p>
-			<p class="leading-relaxed text-base"><a href={url} target="_blank" rel="noopener noreferrer">{url}</a></p>
+			<!-- <p class="leading-relaxed text-base">v{version}</p> -->
+			<p class="leading-relaxed text-base"><a href={url} target="_blank" rel="noopener noreferrer">View on GitHub</a></p>
 		</div>
 	</div>
 </div>
