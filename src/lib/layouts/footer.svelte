@@ -1,11 +1,8 @@
-<script>
-	import LogoMcss from '$lib/svg/logoMcss.svelte';
-</script>
 
 <footer class="text-gray-400 bg-gray-800">
 	<div class="container px-5 py-8 mx-auto flex items-center lg:flex-row flex-col">
 		<div class="flex font-medium items-center md:justify-start justify-center text-white ">
-			<LogoMcss class="w-10 h-10 p-1" />
+			<img src="/logo-256.png" alt="logo" height={30} width={30} >
 			<span class="ml-1 lg:ml-3 text-xl ">MC Server Soft Community</span>
 		</div>
 

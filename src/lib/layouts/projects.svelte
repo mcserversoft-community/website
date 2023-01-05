@@ -6,8 +6,8 @@
 <section>
 	<div class="container px-5 py-6 mx-auto">
 		<div class="flex flex-wrap -m-4">
-			{#each projects as { name, language, version, url }}
-				<ProjectCard {name} description={language} {version} {url} />
+			{#each projects as { name, language, url }}
+				<ProjectCard {name} description={language} {url} />
 			{/each}
 		</div>
 	</div>
